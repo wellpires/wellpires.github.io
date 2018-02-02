@@ -1,2 +1,0 @@
-# wellpires.github.io
-Portifólio
