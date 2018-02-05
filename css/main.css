@@ -1,0 +1,32 @@
+@charset "ISO-8859-1";
+
+body {
+	/*   background: #70A4FF; */
+	background-color: #cccccc;
+	background-image: url("https://static.pexels.com/photos/270360/pexels-photo-270360.jpeg");
+	font-size: 80%;
+	padding: 20px;
+}
+
+main {
+	position: relative;
+	background: white;
+	height: 200px;
+	width: 90%;
+	margin: 0 auto;
+	padding: 20px;
+	overflow: auto;
+}
+
+main div {
+	background: black;
+	color: white;
+	width: 50%;
+	transform: translate(-50%, -50%);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	padding: 20px;
+	resize: both;
+	overflow: auto;
+}
