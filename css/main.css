@@ -13,6 +13,11 @@ main {
 	height: 150px;
 	width: 100%;
 	margin: 0 auto;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	/* bring your own prefixes */
+	transform: translate(-50%, -50%);
 }
 
 main div {
@@ -25,4 +30,11 @@ main div {
 	left: 50%;
 	padding: 20px;
 	overflow: auto;
+}
+
+.centered {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
