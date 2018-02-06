@@ -1,8 +1,7 @@
 @charset "ISO-8859-1";
 
 body {
-	background-color: #cccccc;
-	background-image: url("../images/main_wallpaper.jpeg");
+	background: #cccccc url("../images/main_wallpaper.jpeg");
 	font-size: 80%;
 	padding: 20px;
 }
