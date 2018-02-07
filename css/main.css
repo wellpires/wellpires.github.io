@@ -38,3 +38,11 @@ main div {
     -moz-animation: blink 0.7s infinite;
     animation: blink 0.7s infinite;
 }
+
+header,footer,
+article,section,
+hgroup,nav,
+figure{
+    /* Giving a display value to the HTML5 rendered elements: */
+    display:block;
+}
